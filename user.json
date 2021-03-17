@@ -1,0 +1,72 @@
+[
+    {
+        "id": 5,
+        "firstName": "Yoann",
+        "lastName": "CÔTE",
+        "email": "yoann.cote@my-digital-school.org",
+        "birthDate": "0000-00-00",
+        "avatarUrl": "https://trombi-mds.mathieutu.dev/pictures/b3_dev/cote_yoann.jpg",
+        "gender": "male",
+        "age": null
+    },
+    {
+        "id": 6,
+        "firstName": "Gabrielle",
+        "lastName": "GEROUDET-RASTOIX",
+        "email": "gabrielle.geroudet-rastoix@my-digital-school.org",
+        "birthDate": "0000-00-00",
+        "avatarUrl": "https://trombi-mds.mathieutu.dev/pictures/b3_dev/geroudet-rastoix_gabrielle.jpg",
+        "gender": "female",
+        "age": null
+    },
+    {
+        "id": 8,
+        "lastName": "BIQUE",
+        "firstName": "Florian",
+        "email": "florian.bique@my-digital-school.org",
+        "birthDate": "0000-00-00",
+        "avatarUrl": "https://trombi-mds.mathieutu.dev/pictures/b3_dev/bique_florian.jpg",
+        "gender": "male",
+        "age": null
+    },
+    {
+        "id": 7,
+        "lastName": "MARTIN",
+        "firstName": "Antoine",
+        "email": "antoine.martin@my-digital-school.org",
+        "birthDate": "1993-04-21",
+        "avatarUrl": "https://trombi-mds.mathieutu.dev/pictures/b3_dev/martin_antoine.jpg",
+        "gender": "male",
+        "age": 27
+    },
+    {
+        "id": 1,
+        "lastName": "GALLEGO",
+        "firstName": "Chloé",
+        "email": "chloe.gallego-pelegrin@my-digital-school.org",
+        "birthDate": "0000-00-00",
+        "avatarUrl": "https://trombi-mds.mathieutu.dev/pictures/b3_dev/gallego-pelegrin_chloe.jpg",
+        "gender": "female",
+        "age": null
+    },
+    {
+        "id": 9,
+        "lastName": "ARQUILLIERE",
+        "firstName": "Emilie",
+        "email": "emilie.arquilliere@gmail.com",
+        "birthDate": "2021-03-08",
+        "avatarUrl": "http://localhost:6929/moi.png",
+        "gender": "female",
+        "age": 0
+    },
+    {
+        "id": 10,
+        "lastName": "JUMELLE",
+        "firstName": "emilie",
+        "email": "emilie@jumelle.com",
+        "birthDate": "2021-03-22",
+        "avatarUrl": "http://localhost:6929/moi.png",
+        "gender": "female",
+        "age": -1
+    }
+]
