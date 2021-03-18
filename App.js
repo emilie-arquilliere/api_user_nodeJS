@@ -1,12 +1,13 @@
 const fs = require("fs");
 const express = require("express");
 const fileUpload = require('express-fileupload');
-var mv = require('mv');
 const cors = require("cors");
 const app = express();
 
 app.use(cors());
 app.use(express.static('public'));
+const path = __dirname + '/views/';
+app.use(express.static(path));
 app.use(fileUpload({createParentPath: true}));
 app.use(express.json());
 const getAge = birthDate => new Date(
@@ -19,6 +20,10 @@ const readUsers = () =>
         ...user,
         age: getAge(user.birthDate)
       }));
+
+app.get('/', function (req,res) {
+  res.sendFile(path + "index.html");
+});
 
 app.get("/users", (req, res) => {
   res.json(readUsers());
